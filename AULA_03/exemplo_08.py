@@ -4,7 +4,7 @@ if idade <18:
     print("Voce é menor de idade")
 elif idade ==18:
     print("Quase la")
-elif idade >65:
-    print("Acesso Liberado - aprecie com moderação")
+elif idade > 18 and idade < 65:
+    print("Acesso Liberado")
 else:
-    print("acesso Liberado")
+    print("acesso Liberado - Apreci com Moderação")
